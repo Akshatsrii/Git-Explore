@@ -1,14 +1,8 @@
 const errorMiddleware = (err, req, res, next) => {
-  console.error(err.message);
-
-  if (err.response) {
-    return res.status(err.response.status).json({
-      error: err.response.data.message
-    });
-  }
-
+  console.error(err.stack);
   res.status(500).json({
-    error: "Server Error"
+    success: false,
+    message: err.message || "Internal Server Error"
   });
 };
 

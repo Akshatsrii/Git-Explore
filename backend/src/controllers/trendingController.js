@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export default async function handler(req, res) {
+export const getTrending = async (req, res, next) => {
   try {
     const {
       duration = "week",
@@ -44,9 +44,8 @@ export default async function handler(req, res) {
       }
     );
 
-    return res.status(200).json(response.data);
-
+    res.status(200).json(response.data);
   } catch (error) {
-    return res.status(500).json({ error: "Failed to fetch" });
+    next(error);
   }
-}
+};
