@@ -254,6 +254,7 @@ timeline
 
 <img src="https://i.imgur.com/waxVImv.png" width="100%">
 
+<<<<<<< HEAD
 ## 👨‍💻 Author
 
 <div align="center">
@@ -272,6 +273,8 @@ timeline
 </div>
 
 <img src="https://i.imgur.com/waxVImv.png" width="100%">
+=======
+>>>>>>> 1a7816525969de52c54d702f6ea794c9a61a9ba2
 <!-- BOTTOM WAVE -->
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,50:A78BFA,100:6EE7F7&height=150&section=footer&text=Happy%20Exploring!&fontSize=30&fontColor=ffffff&fontAlignY=65&animation=twinkling" width="100%"/>
