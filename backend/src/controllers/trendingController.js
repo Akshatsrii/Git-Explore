@@ -1,5 +1,5 @@
 import axios from "axios";
-import express from "express";
+
 export const getTrending = async (req, res, next) => {
   try {
     const {
@@ -49,4 +49,3 @@ export const getTrending = async (req, res, next) => {
     next(error);
   }
 };
-export default router;
