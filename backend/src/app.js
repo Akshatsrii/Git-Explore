@@ -12,9 +12,11 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
 
-app.use("/api/trending", trendingRoutes);
-app.get("/favicon.ico", (req, res) => res.status(204));
+app.get("/", (req, res) => {
+  res.json({ message: "API is running" });
+});
 
+app.use("/api/trending", trendingRoutes);
 
 app.use(errorMiddleware);
 
