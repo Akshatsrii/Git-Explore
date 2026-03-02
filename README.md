@@ -15,6 +15,10 @@
 
 <img src="https://i.imgur.com/waxVImv.png" width="100%">
 
+## Deployment Link
+
+**https://git-explore-h9ou.vercel.app/**
+
 ## 🌟 Overview
 
 **Git Explore** is a modern full-stack web application that fetches and displays trending GitHub repositories using the GitHub Search API. Explore trending repos, search projects, filter by duration and language, and directly open repositories or user profiles — all through a sleek, dark-themed UI.
